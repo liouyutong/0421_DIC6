@@ -14,6 +14,6 @@
 
 ## 3. Verification & Handover
 
-- [ ] 3.1 Test `startup.sh` by running it
-- [ ] 3.2 Create a dummy `handover.md` to verify `startup.sh` reading logic
-- [ ] 3.3 Test `ending.sh` by running it and verifying the commit/push/archive flow
+- [x] 3.1 Test `startup.sh` by running it
+- [x] 3.2 Create a dummy `handover.md` to verify `startup.sh` reading logic
+- [x] 3.3 Test `ending.sh` by running it and verifying the commit/push/archive flow
