@@ -1,0 +1,19 @@
+schema: spec-driven
+
+# Project context (optional)
+# This is shown to AI when creating artifacts.
+context: |
+  Change Numbering Rule:
+  All new changes must be prefixed with a 2-digit number followed by a dash (e.g., 01-my-feature).
+  The numbering should start from 01- and increment for each new change.
+  Existing changes are located in openspec/changes/.
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
